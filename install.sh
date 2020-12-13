@@ -36,7 +36,7 @@ sudo usermod -aG docker $USER
 
 # Golang
 # Maybe update the version
-curl https://golang.org/dl/go1.15.6.linux-amd64.tar.gz --output golang.tar.gz
+curl https://dl.google.com/go/go1.15.6.linux-amd64.tar.gz --output golang.tar.gz
 sudo tar -C /usr/local -xzf golang.tar.gz
 rm golang.tar.gz
 # go env variables are configured in the zsh
